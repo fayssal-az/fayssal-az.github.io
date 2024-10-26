@@ -1,6 +1,6 @@
 ---
 layout: post
-title: This another blog post ! 
+title: My First blog post ! 
 ---
 
 Content coming soon ...
