@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mon premier article de blog ! 
+title: Une histoire de pari 
 ---
 
 Il y a quelques heures, avec un ami, nous avons pris le pari d'écrire notre premier article de blog avant le 30 novembre. 
