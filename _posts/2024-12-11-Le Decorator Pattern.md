@@ -7,11 +7,13 @@ Dans GTA, imaginons qu'on puisse commander des pizzas dans un resto très connu.
 Le resto propose 3 pizzas : margarita, napolitaine, reine.
 
 ![best pizza in town](https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwzfHxwaXp6YXxlbnwwfDB8fHwxNzMyMjg1MDEwfDA&ixlib=rb-4.0.3&q=80&w=400)
+
 *Photo by [Vita Marija Murenaite](https://unsplash.com/@runningvita?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral)*
 
 Il propose aussi des suppléments : burrata, champignons et légumes.
 
 ![Healthy Grocery Shopping](https://images.unsplash.com/photo-1418669112725-fb499fb61127?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHw4fHx2ZWdldGFibGVzfGVufDB8MHx8fDE3MzIyODUwMzd8MA&ixlib=rb-4.0.3&q=80&w=400)
+
 *Photo by [leonie wise](https://unsplash.com/@leoniewise?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral)*
 
 
@@ -56,11 +58,11 @@ Ce pattern consiste à découpler le produit de base de ce qu'il le "décore", c
 Voici donc ce que nous avons pour l'instant :
 
 
-![[Drawing 2024-11-22 09.31.44.excalidraw]]
+![alt text](images\classes.png)
 
 Et donc comment faire pour ajouter de la burrata sur cette pizza : eh bien on invoque l'abstraction.
 
-![[Drawing 2024-11-22 14.29.13.excalidraw]]
+![alt text](images\uml_diagram.png)
 
 Qu'est ce qu'on vient de faire ?
 Nous sommes partis du fait que notre pizza et notre burrata avaient deux méthodes : `GetCost()` et `GetDescription()`
