@@ -1,10 +1,10 @@
-Mettons nous dans la tête d'un développeur de jeu vidéo.
+Dans cet article nous allons nous mettre dans la peau de Luigi. 
 
-Prenons GTA par exemple. 
+Luigi est le fils de Mario, un patron de pizzeria. 
 
-Dans GTA, imaginons qu'on puisse commander des pizzas dans un resto très connu. 
+Luigi veut développer un outil de commandes de pizza pour on père, fatigué de le voir courrir systématiquement après les commandes et les factures.
 
-Le resto propose 3 pizzas : margarita, napolitaine, reine.
+Chez Mario on propose 3 pizzas : margarita, napolitaine, reine.
 
 ![best pizza in town](https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwzfHxwaXp6YXxlbnwwfDB8fHwxNzMyMjg1MDEwfDA&ixlib=rb-4.0.3&q=80&w=400)
 
@@ -19,7 +19,7 @@ Il propose aussi des suppléments : burrata, champignons et légumes.
 
 Jusque là, tout va bien. 
 
-A présent, en tant que développeur, je dois m'occuper de modéliser tout ça pour l'implémenter dans GTA.
+A présent, en tant que développeur, je dois m'occuper de modéliser tout ça pour l'implémenter dans mon outil de gestion de commandes.
 
 Car, je ne l'ai pas dit, mais le prix et la description d'une pizza dépend de ce qu'elle contient, évidemment. 
 
