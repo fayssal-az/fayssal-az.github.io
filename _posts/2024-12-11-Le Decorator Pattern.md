@@ -2,7 +2,7 @@ Dans cet article nous allons nous mettre dans la peau de Luigi.
 
 Luigi est le fils de Mario, un patron de pizzeria. 
 
-Luigi veut développer un outil de commandes de pizza pour on père, fatigué de le voir courrir systématiquement après les commandes et les factures.
+Luigi veut développer un outil de commandes de pizza pour son père, fatigué de le voir courrir systématiquement après les commandes et les factures.
 
 Chez Mario on propose 3 pizzas : margarita, napolitaine, reine.
 
@@ -19,9 +19,9 @@ Il propose aussi des suppléments : burrata, champignons et légumes.
 
 Jusque là, tout va bien. 
 
-A présent, en tant que développeur, je dois m'occuper de modéliser tout ça pour l'implémenter dans mon outil de gestion de commandes.
+A présent, en tant que développeur, Luigi dois m'occuper de modéliser toutes ces infos pour les implementer dans son outil de gestion de commandes.
 
-Car, je ne l'ai pas dit, mais le prix et la description d'une pizza dépend de ce qu'elle contient, évidemment. 
+Car, je ne l'ai pas dit, mais le prix et la description d'une pizza dépendent de ce qu'elle contient, évidemment. 
 
 Donc je vais créer une classe pour modéliser ma margarita (c'est assez bizarre comme phrase). 
 
@@ -49,11 +49,11 @@ public class Margarita
 
 Ce n'est pas une bonne pratique d'écrire les valeurs en dur comme c'est fait ainsi, mais le focus n'est pas sur cette bonne pratique. On y reviendra dans un autre article.
 
-Maintenant si je veux une Margarita avec des champignons et de la burrata, ou encore une Margarita avec juste de la burrata, ou bien juste des légumes ... vous avez compris, le nombre de possibilités est assez important pour créer un type par combinaison possible.
+Maintenant si je veux une Margarita avec des champignons et de la burrata, ou encore une Margarita avec juste de la burrata, ou bien juste des légumes ... vous avez compris, le nombre de possibilités est assez important pour créer un type de classe par combinaison possible.
 
 C'est là que le Decorator pattern intervient. 
 
-Ce pattern consiste à découpler le produit de base de ce qu'il le "décore", c'est à dire découpler la pizza de ses suppléments. 
+Ce pattern consiste à découpler le produit au sens logiciel de ce qu'il le "décore", c'est à dire découpler la pizza de ses suppléments. 
 
 Voici donc ce que nous avons pour l'instant :
 
@@ -74,9 +74,9 @@ Puis nous avons ajouté une classe : `SupplementsDecorator` dont vont hériter t
 
 Pourquoi me diriez vous ? Eh bien parce que c'est comme ça !
 
-Plus sérieusement, cette classe permet d'appliquer le décorateur au produit désiré.
+Plus sérieusement, cette classe permet **d'appliquer le décorateur au produit désiré.**
 
-Vous remarquerez que cette classe hérite de la classe mère mais qu'elle est aussi composée de la classe mère (la flèche avec un losange traduit une relation de composition, pour les fans d'UML)
+Vous remarquerez que cette classe hérite de la classe mère mais qu'elle est aussi composée de cette même classe mère (la flèche avec un losange traduit une relation de composition, pour les fans d'UML)
 
 Donc non seulement elle hérite de ses méthodes mais elle se compose aussi de la même classe mère, c'est ce qui permet de passer une pizza en argument du constructeur et ainsi de récupérer le prix et la description d'une pizza. 
 
