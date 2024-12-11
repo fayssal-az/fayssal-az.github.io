@@ -58,7 +58,7 @@ Ce pattern consiste à découpler le produit de base de ce qu'il le "décore", c
 Voici donc ce que nous avons pour l'instant :
 
 
-![alt text](https://raw.githubusercontent.com/fayssal-az/fayssal-az.github.io/master/images/classes.jpg)
+![alt text](https://raw.githubusercontent.com/fayssal-az/fayssal-az.github.io/master/images/classes.png)
 
 Et donc comment faire pour ajouter de la burrata sur cette pizza : eh bien on invoque l'abstraction.
 
