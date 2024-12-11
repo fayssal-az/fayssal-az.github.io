@@ -62,7 +62,7 @@ Voici donc ce que nous avons pour l'instant :
 
 Et donc comment faire pour ajouter de la burrata sur cette pizza : eh bien on invoque l'abstraction.
 
-![alt text](images/uml_diagram.png)
+![alt alt text](images/uml_diagram.png)
 
 Qu'est ce qu'on vient de faire ?
 Nous sommes partis du fait que notre pizza et notre burrata avaient deux méthodes : `GetCost()` et `GetDescription()`
