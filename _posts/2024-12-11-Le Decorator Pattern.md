@@ -19,7 +19,7 @@ Il propose aussi des suppléments : burrata, champignons et légumes.
 
 Jusque là, tout va bien. 
 
-A présent, en tant que développeur, Luigi dois m'occuper de modéliser toutes ces infos pour les implementer dans son outil de gestion de commandes.
+A présent, en tant que développeur, Luigi doit s'occuper de modéliser toutes ces infos pour les implementer dans son outil de gestion de commandes.
 
 Car, je ne l'ai pas dit, mais le prix et la description d'une pizza dépendent de ce qu'elle contient, évidemment. 
 
